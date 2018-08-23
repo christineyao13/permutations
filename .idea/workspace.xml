@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list id="a416b31e-0565-4938-ace6-8503a79efff1" name="[cy vito] create" comment="" />
     <list id="2b398867-a1a5-4545-9cf1-3e1ed8c6aa86" name="[cy vito] create test" comment="" />
+    <list id="a416b31e-0565-4938-ace6-8503a79efff1" name="[cy vito] create" comment="" />
     <list default="true" id="991bedd9-b9b9-415d-8661-15ba56676047" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Permutation.java" afterDir="false" />
     </list>
@@ -37,11 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PermutationTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PermutationTest.java">
+      <file leaf-file-name="Permutation.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Permutation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            <state relative-caret-position="384">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,6 +61,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>&quot;,&quot;</find>
+      <find>input.substring(2, 3) + input.substring(1, 2)</find>
     </findStrings>
     <replaceStrings>
       <replace>_</replace>
@@ -408,7 +409,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="2880" />
     <option name="height" value="1620" />
   </component>
@@ -608,47 +609,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535003087291</updated>
-      <workItem from="1535003088583" duration="1354000" />
+      <workItem from="1535003088583" duration="2827000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PermutationTest_should_return_a_when_input_a - 2018.08.23 at 13h 49m 41s.xml">
-      <configuration name="PermutationTest.should_return_a_when_input_a" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PermutationTest_should_return_a_when_input_a - 2018.08.23 at 13h 51m 04s.xml">
-      <configuration name="PermutationTest.should_return_a_when_input_a" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PermutationTest_should_return_a_when_input_a - 2018.08.23 at 13h 53m 21s.xml">
-      <configuration name="PermutationTest.should_return_a_when_input_a" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PermutationTest_should_return_ab_ba_when_input_ab - 2018.08.23 at 13h 53m 25s.xml">
-      <configuration name="PermutationTest.should_return_ab_ba_when_input_ab" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PermutationTest_should_return_ab_ba_when_input_ab - 2018.08.23 at 13h 53m 32s.xml">
-      <configuration name="PermutationTest.should_return_ab_ba_when_input_ab" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PermutationTest_should_return_ab_ba_when_input_ab - 2018.08.23 at 13h 53m 35s.xml">
-      <configuration name="PermutationTest.should_return_ab_ba_when_input_ab" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PermutationTest - 2018.08.23 at 13h 53m 37s.xml">
-      <configuration name="PermutationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PermutationTest - 2018.08.23 at 13h 56m 59s.xml">
-      <configuration name="PermutationTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PermutationTest_should_return_abc_acb_bac_bca_cab_cba_when_input_abc - 2018.08.23 at 14h 02m 12s.xml">
       <configuration name="PermutationTest.should_return_abc_acb_bac_bca_cab_cba_when_input_abc" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PermutationTest - 2018.08.23 at 14h 02m 18s.xml">
       <configuration name="PermutationTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PermutationTest - 2018.08.23 at 14h 07m 26s.xml">
+      <configuration name="PermutationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PermutationTest - 2018.08.23 at 14h 07m 49s.xml">
+      <configuration name="PermutationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PermutationTest - 2018.08.23 at 14h 18m 35s.xml">
+      <configuration name="PermutationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PermutationTest - 2018.08.23 at 14h 21m 15s.xml">
+      <configuration name="PermutationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PermutationTest - 2018.08.23 at 14h 22m 05s.xml">
+      <configuration name="PermutationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PermutationTest - 2018.08.23 at 14h 27m 18s.xml">
+      <configuration name="PermutationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PermutationTest - 2018.08.23 at 14h 27m 49s.xml">
+      <configuration name="PermutationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PermutationTest - 2018.08.23 at 14h 30m 49s.xml">
+      <configuration name="PermutationTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1354000" />
+    <option name="totallyTimeSpent" value="2827000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -657,20 +658,20 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" weight="0.32975295" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32963374" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32890704" />
       <window_info anchor="bottom" id="Version Control" weight="0.32963374" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32963374" />
+      <window_info anchor="bottom" id="Terminal" weight="0.36363637" />
       <window_info id="Designer" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.24973147" />
       <window_info anchor="bottom" id="Build" weight="0.32963374" />
       <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Learn" />
       <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -748,20 +749,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Permutation.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/PermutationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        <state relative-caret-position="350">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PermutationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Permutation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        <state relative-caret-position="384">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
