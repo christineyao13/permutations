@@ -3,7 +3,14 @@
   <component name="ChangeListManager">
     <list id="2b398867-a1a5-4545-9cf1-3e1ed8c6aa86" name="[cy vito] create test" comment="" />
     <list id="a416b31e-0565-4938-ace6-8503a79efff1" name="[cy vito] create" comment="" />
-    <list default="true" id="991bedd9-b9b9-415d-8661-15ba56676047" name="Default" comment="" />
+    <list default="true" id="991bedd9-b9b9-415d-8661-15ba56676047" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Permutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Permutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/PermutationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/PermutationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Permutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/task.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PermutationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PermutationTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -35,11 +42,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Permutation.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Permutation.java">
+      <file leaf-file-name="PermutationTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PermutationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+            <state relative-caret-position="380">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,8 +65,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&quot;,&quot;</find>
       <find>input.substring(2, 3) + input.substring(1, 2)</find>
+      <find>&quot;,&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>_</replace>
@@ -386,9 +393,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/task.md" />
-        <option value="$PROJECT_DIR$/src/test/java/PermutationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Permutation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PermutationTest.java" />
+        <option value="$PROJECT_DIR$/src/task.md" />
       </list>
     </option>
   </component>
@@ -470,7 +477,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PermutationTest">
+  <component name="RunManager" selected="JUnit.PermutationTest.should_return_size_equals_24_when_input_abcd">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -542,6 +549,23 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="PermutationTest.should_return_size_equals_24_when_input_abcd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oocl_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PermutationTest" />
+      <option name="METHOD_NAME" value="should_return_size_equals_24_when_input_abcd" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -585,9 +609,11 @@
       <item itemvalue="JUnit.PermutationTest.should_return_ab_ba_when_input_ab" />
       <item itemvalue="JUnit.PermutationTest" />
       <item itemvalue="JUnit.PermutationTest.should_return_abc_acb_bac_bca_cab_cba_when_input_abc" />
+      <item itemvalue="JUnit.PermutationTest.should_return_size_equals_24_when_input_abcd" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PermutationTest.should_return_size_equals_24_when_input_abcd" />
         <item itemvalue="JUnit.PermutationTest" />
         <item itemvalue="JUnit.PermutationTest.should_return_abc_acb_bac_bca_cab_cba_when_input_abc" />
         <item itemvalue="JUnit.PermutationTest.should_return_ab_ba_when_input_ab" />
@@ -607,17 +633,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535003087291</updated>
-      <workItem from="1535003088583" duration="3077000" />
+      <workItem from="1535003088583" duration="4714000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PermutationTest - 2018.08.23 at 14h 07m 26s.xml">
-      <configuration name="PermutationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PermutationTest - 2018.08.23 at 14h 07m 49s.xml">
-      <configuration name="PermutationTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PermutationTest - 2018.08.23 at 14h 18m 35s.xml">
       <configuration name="PermutationTest" configurationId="JUnit" />
     </history-entry>
@@ -642,12 +662,19 @@
     <history-entry file="PermutationTest - 2018.08.23 at 14h 33m 06s.xml">
       <configuration name="PermutationTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PermutationTest - 2018.08.23 at 14h 47m 43s.xml">
+      <configuration name="PermutationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PermutationTest_should_return_size_equals_24_when_input_abcd - 2018.08.23 at 14h 54m 30s.xml">
+      <configuration name="PermutationTest.should_return_size_equals_24_when_input_abcd" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3077000" />
+    <option name="totallyTimeSpent" value="4714000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" weight="0.3299285" />
@@ -656,7 +683,7 @@
       <window_info anchor="right" id="Maven Projects" weight="0.32975295" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32890704" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32963374" />
+      <window_info anchor="bottom" id="Version Control" weight="0.8181818" />
       <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.36363637" />
       <window_info id="Designer" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.24973147" />
@@ -736,11 +763,21 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Permutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="19" column="88" lean-forward="true" selection-start-line="19" selection-start-column="88" selection-end-line="19" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/task.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="320">
-            <caret line="10" column="53" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="53" />
+          <first_editor relative-caret-position="448">
+            <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
           </first_editor>
           <second_editor />
         </state>
@@ -748,18 +785,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PermutationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Permutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        <state relative-caret-position="380">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

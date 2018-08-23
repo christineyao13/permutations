@@ -17,20 +17,16 @@ public class Permutation {
 			List<String> permutations = new ArrayList<>();
 
 			for (int index = 0; index < input.length(); index++) {
-				List<String> subPermutations = call(removeOneChar(input, index));
+				List<String> subPermutations = call(removeOneCharByIndex(input, index));
 				permutations.add(input.charAt(index) + subPermutations.get(0));
 				permutations.add(input.charAt(index) + subPermutations.get(1));
-
 			}
 			return permutations;
 		}
 		return Collections.singletonList(input);
 	}
 
-	private String removeOneChar(String input,int index) {
-		if (index == 0){
-			return input.substring(1);
-		}
+	private String removeOneCharByIndex(String input, int index) {
 		return input.substring(0, index) + input.substring(index+1);
 	}
 }
