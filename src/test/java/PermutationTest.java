@@ -28,4 +28,14 @@ public class PermutationTest {
 		//then
 		Assert.assertEquals(Arrays.asList("ab","ba"),permutations);
 	}
+
+	@Test
+	public void should_return_abc_acb_bac_bca_cab_cba_when_input_abc (){
+		//given
+		String input = "abc";
+		//when
+		List<String> permutations = new Permutation().call(input);
+		//then
+		Assert.assertEquals(Arrays.asList("abc","acb","bac","bca","cab","cba"),permutations);
+	}
 }
