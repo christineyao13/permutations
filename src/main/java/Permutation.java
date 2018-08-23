@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -22,22 +22,9 @@ public class Permutation {
 				permutations.add(input.charAt(index) + subPermutations.get(1));
 
 			}
-
-//
-//			List<String> subpermutations = call(removeOneChar(input, 0));
-//			permutations.add(input.substring(0, 1) + subpermutations.get(0));
-//			permutations.add(input.substring(0, 1) + subpermutations.get(1));
-//
-//			subpermutations = call(removeOneChar(input, 1));
-//			permutations.add(input.substring(1, 2) + subpermutations.get(0));
-//			permutations.add(input.substring(1, 2) + subpermutations.get(1));
-//
-//			subpermutations = call(removeOneChar(input, 2));
-//			permutations.add(input.substring(2, 3) + subpermutations.get(0));
-//			permutations.add(input.substring(2, 3) + subpermutations.get(1));
 			return permutations;
 		}
-		return Arrays.asList(input);
+		return Collections.singletonList(input);
 	}
 
 	private String removeOneChar(String input,int index) {
