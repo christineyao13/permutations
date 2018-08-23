@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -5,6 +6,6 @@ import java.util.List;
  */
 public class Permutation {
 	public List<String> call(String input) {
-		return null;
+		return Arrays.asList(input);
 	}
 }
